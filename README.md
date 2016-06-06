@@ -1,10 +1,10 @@
 # README #
 
-The codes are for the ICCV2015 paper ["Convolutional Channel Features"](http://arxiv.org/abs/1504.07339).
+The codes are with the ICCV2015 paper ["Convolutional Channel Features"](http://arxiv.org/abs/1504.07339).
 
-The codes include training and testing of a pedestrian detector on Caltech. We also provide our trained model for repreduction of the results in the paper.
+The codes include training and testing of a pedestrian detector on Caltech Pedestrian Dataset. We also provide our trained model for repreduction of the results reported on Caltech benchmark in the paper.
 
-The codes are written in Matlab, dependent on [Caffe](https://github.com/BVLC/caffe) and [Piotr's Computer Vision Matlab Toolbox](https://github.com/pdollar/toolbox). Codes are tested on Linux 12.04.3 LTS with 128GB memory.
+The codes are written in Matlab, dependent on [Caffe](https://github.com/BVLC/caffe) and [Piotr's Computer Vision Matlab Toolbox](https://github.com/pdollar/toolbox). Codes are tested on Linux 12.04.3 LTS with 128GB memory and a Titan Z GPU.
 
 ### Preparation ###
 
@@ -26,12 +26,13 @@ The codes are written in Matlab, dependent on [Caffe](https://github.com/BVLC/ca
 
 ### Power law ###
 
-* Power law can accelerate the detection time by a large margin with unnoticeable performance decrease. To our knowledge, it hold for CCF on AFW face data set but doesn't hold on Caltech pedestrian data set. (see the paper for more details)
-* You can check whether the power law holds for specific feature type on specific data set using codes in `./power_law`. Just run `getMean.m` and `getLambda.m` consecutively.
+* Power law can accelerate the detection time by a large margin with unnoticeable performance decrease. To our knowledge, it holds for CCF on AFW face dataset but doesn't hold on Caltech pedestrian dataset. (see the paper for more details)
+* You can check whether the power law holds for specific feature type on specific data set by running `./power_law/getMean.m` and `./power_law/getLambda.m` consecutively.
 
 ### Reference ###
 
-* If you use our codes or models in your research, we are grateful if you cite the paper
+If you use our codes or models in your research, we are grateful if you cite the paper
+
 ```
 @inproceedings{binyang15ccf,
   Author    = {Bin Yang and
