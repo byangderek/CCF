@@ -4,7 +4,7 @@ The codes are for the ICCV2015 paper ["Convolutional Channel Features"](http://a
 
 The codes include training and testing of a pedestrian detector on Caltech. We also provide our trained model for repreduction of the results in the paper.
 
-The codes are written in Matlab, dependent on Caffe toolkit and Piotr's Computer Vision Matlab Toolbox. Codes are tested on Linux 12.04.3 LTS with 128GB memory.
+The codes are written in Matlab, dependent on [Caffe](https://github.com/BVLC/caffe) and [Piotr's Computer Vision Matlab Toolbox](https://github.com/pdollar/toolbox). Codes are tested on Linux 12.04.3 LTS with 128GB memory.
 
 ### Preparation ###
 
@@ -53,7 +53,3 @@ Great gratitude is presented to
 * Caffe team
 * VGG team
 * NVIDIA Corporation
-
---
-* by Bin Yang
-* 6.6.2016
