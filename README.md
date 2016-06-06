@@ -1,6 +1,6 @@
 # README #
 
-The codes are for the ICCV2015 paper "Convolutional Channel Features" (http://arxiv.org/abs/1504.07339).
+The codes are for the ICCV2015 paper ["Convolutional Channel Features"](http://arxiv.org/abs/1504.07339).
 
 The codes include training and testing of a pedestrian detector on Caltech. We also provide our trained model for repreduction of the results in the paper.
 
@@ -9,8 +9,8 @@ The codes are written in Matlab, dependent on Caffe toolkit and Piotr's Computer
 ### Preparation ###
 
 * Make the provided Caffe with matCaffe interface
-* Download VGG-16 CaffeModel to `./data/CaffeNets/` (https://gist.github.com/ksimonyan/211839e770f7b538e2d8#file-readme-md)
-* Download Caltech Pedestrian Dataset (http://www.vision.caltech.edu/Image_Datasets/CaltechPedestrians/) and set it up properly with codes in `./data/code3.2.1`
+* Download [VGG-16 CaffeModel](https://gist.github.com/ksimonyan/211839e770f7b538e2d8#file-readme-md) to `./data/CaffeNets/`
+* Download [Caltech Pedestrian Dataset](http://www.vision.caltech.edu/Image_Datasets/CaltechPedestrians/) and set it up properly with codes in `./data/code3.2.1`
 
 ### Demo for pedestrian detection ###
 
@@ -55,5 +55,5 @@ Great gratitude is presented to
 * NVIDIA Corporation
 
 --
-by Bin Yang
-6.6.2016
+* by Bin Yang
+* 6.6.2016
